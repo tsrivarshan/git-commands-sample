@@ -1,0 +1,47 @@
+git init -> Initialize git in local
+
+Cloning a Repo
+
+***If you don't have right access then fork into your local remote repo and clone
+
+then
+-->fork
+-->clone
+
+else
+--> clone
+
+
+git clone ->Clone a repo from remote
+git checkout {branch-name} -> It will change to a particular branch
+git pull -> It update the working dir for the current branch
+git status -> check the changes happenend
+git add {./ file name} -> add to the local
+git commit -> commit the changes in the local
+
+***Now all the changes are happened in the local
+
+git push -u origin {branch-name}--> If you dont have the write access
+
+then -> Create an pull request in the base repository
+
+
+***Creation /Deletion of branches (Local/remote)
+
+git checkout -b {new branch name}--> create a new branch
+
+git branch -d {new branch name}--> delete a branch
+
+git push -u origin -b <branch-name>  --> create a new branch in remote repo
+
+git push -u origin -d <branch-name> --> delete a branch in remote repo
+
+
+Need to see......
+
+1.git merge
+2.merge conflict
+3.git revert,rebase,reset
+4.git stash
+
+
